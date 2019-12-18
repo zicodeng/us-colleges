@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "2289 U.S. colleges",
   "main": "index.js",
+  "keywords": [
+    "us colleges",
+    "colleges"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
