@@ -9,17 +9,17 @@ import { US_COLLEGES } from '@ztopia/us-colleges';
 
 console.log(US_COLLEGES);
 // [
-//   ...,
-// {
-//   latitude: 47.656213,
-//   longitude: -122.313115,
-//   name: 'University of Washington-Seattle Campus',
-//   translation: '华盛顿西雅图大学校园',
-//   zip_code: '98195-4550',
-//   state_name: 'Washington',
-//   state_abbreviation: 'WA',
-//   city: 'Seattle',
-// },
+//   ...
+//   {
+//     latitude: 47.656213,
+//     longitude: -122.313115,
+//     name: 'University of Washington-Seattle Campus',
+//     translation: '华盛顿西雅图大学校园',
+//     zip_code: '98195-4550',
+//     state_name: 'Washington',
+//     state_abbreviation: 'WA',
+//     city: 'Seattle',
+//   },
 //   ...
 // ]
 ```
