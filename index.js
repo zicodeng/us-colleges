@@ -1,4 +1,4 @@
-export const US_STATES = [
+export const US_COLLEGES = [
   {
     latitude: 34.783368,
     longitude: -86.568502,
