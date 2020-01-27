@@ -13,8 +13,8 @@ console.log(US_COLLEGES);
 // {
 //   latitude: 47.656213,
 //   longitude: -122.313115,
-//   english_name: 'University of Washington-Seattle Campus',
-//   chinese_name: '华盛顿西雅图大学校园',
+//   name: 'University of Washington-Seattle Campus',
+//   translation: '华盛顿西雅图大学校园',
 //   zip_code: '98195-4550',
 //   state_name: 'Washington',
 //   state_abbreviation: 'WA',
@@ -38,6 +38,6 @@ import TrieSearch from 'trie-search';
 
 import { US_COLLEGES } from '@ztopia/us-colleges';
 
-const ts = new TrieSearch(['english_name']);
+const ts = new TrieSearch(['name']);
 ts.addAll(US_COLLEGES);
 ```
