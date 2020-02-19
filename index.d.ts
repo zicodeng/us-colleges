@@ -9,4 +9,6 @@ export interface USCollege {
   city: string;
 }
 
-export const US_COLLEGES: USCollege[];
+export type USCollegeName = string;
+
+export const US_COLLEGES: { [name: USCollegeName]: USCollege };

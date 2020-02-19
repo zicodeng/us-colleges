@@ -8,20 +8,20 @@
 import { US_COLLEGES } from '@ztopia/us-colleges';
 
 console.log(US_COLLEGES);
-// [
+// {
 //   ...
-//   {
-//     latitude: 47.656213,
-//     longitude: -122.313115,
-//     name: 'University of Washington-Seattle Campus',
-//     translation: '华盛顿西雅图大学校园',
-//     zip_code: '98195-4550',
-//     state_name: 'Washington',
-//     state_abbreviation: 'WA',
-//     city: 'Seattle',
+//   'Stanford University': {
+//     latitude: 37.431746,
+//     longitude: -122.182212,
+//     name: 'Stanford University',
+//     translation: '斯坦福大学',
+//     zip_code: '94305',
+//     state_name: 'California',
+//     state_abbreviation: 'CA',
+//     city: 'Stanford',
 //   },
 //   ...
-// ]
+// }
 ```
 
 ## Search
@@ -38,6 +38,6 @@ import TrieSearch from 'trie-search';
 
 import { US_COLLEGES } from '@ztopia/us-colleges';
 
-const ts = new TrieSearch(['name']);
-ts.addAll(US_COLLEGES);
+const ts = new TrieSearch();
+ts.addFromObject(US_COLLEGES);
 ```
