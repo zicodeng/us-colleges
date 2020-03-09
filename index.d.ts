@@ -10,7 +10,7 @@ export interface USCollege {
 }
 
 export interface USColleges {
-  [name: string]: USCollege;
+  [name: string]: USCollege | undefined;
 }
 
 export const US_COLLEGES: USColleges;
