@@ -13,4 +13,6 @@ export interface USColleges {
   [name: string]: USCollege | undefined;
 }
 
-export const US_COLLEGES: USColleges;
+export const ALL_US_COLLEGES: USColleges;
+
+export const POPULAR_US_COLLEGES: USColleges;
