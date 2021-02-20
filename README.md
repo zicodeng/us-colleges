@@ -1,13 +1,17 @@
 # U.S. Colleges
 
-2289 U.S. colleges
+This package exports 2 lists:
+
+- `ALL_US_COLLEGES` exports 2289 U.S. colleges.
+
+- `POPULAR_US_COLLEGES` exports top 100 U.S. colleges based on this [list](https://www.topuniversities.com/where-to-study/north-america/united-states/ranked-top-100-us-universities).
 
 ## Usage
 
 ```js
-import { US_COLLEGES } from '@ztopia/us-colleges';
+import { ALL_US_COLLEGES, POPULAR_US_COLLEGES } from '@ztopia/us-colleges';
 
-console.log(US_COLLEGES);
+console.log(ALL_US_COLLEGES);
 // {
 //   ...
 //   'Stanford University': {
@@ -36,8 +40,8 @@ that does it for us: https://github.com/joshjung/trie-search
 ```js
 import TrieSearch from 'trie-search';
 
-import { US_COLLEGES } from '@ztopia/us-colleges';
+import { ALL_US_COLLEGES } from '@ztopia/us-colleges';
 
 const ts = new TrieSearch();
-ts.addFromObject(US_COLLEGES);
+ts.addFromObject(ALL_US_COLLEGES);
 ```
