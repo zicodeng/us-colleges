@@ -20085,7 +20085,7 @@ export const ALL_US_COLLEGES = {
     latitude: 40.428206,
     longitude: -86.914435,
     name: 'Purdue University',
-    translation: '普渡大学，校本部',
+    translation: '普渡大学',
     zip_code: '47907-2040',
     state_name: 'Indiana',
     state_abbreviation: 'IN',
