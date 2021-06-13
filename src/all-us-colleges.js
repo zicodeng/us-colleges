@@ -2719,17 +2719,17 @@ export const ALL_US_COLLEGES = {
     state_abbreviation: 'NA',
     city: 'Washington',
   },
-  'Pontifical Faculty of the Immaculate Conception at the Dominican House of Studies': {
-    latitude: 38.931427,
-    longitude: -76.998806,
-    name:
-      'Pontifical Faculty of the Immaculate Conception at the Dominican House of Studies',
-    translation: '圣母无原罪宗座学院在研究的多明尼加楼',
-    zip_code: '20017-1585',
-    state_name: 'District of Columbia',
-    state_abbreviation: 'NA',
-    city: 'Washington',
-  },
+  'Pontifical Faculty of the Immaculate Conception at the Dominican House of Studies':
+    {
+      latitude: 38.931427,
+      longitude: -76.998806,
+      name: 'Pontifical Faculty of the Immaculate Conception at the Dominican House of Studies',
+      translation: '圣母无原罪宗座学院在研究的多明尼加楼',
+      zip_code: '20017-1585',
+      state_name: 'District of Columbia',
+      state_abbreviation: 'NA',
+      city: 'Washington',
+    },
   'Gallaudet University': {
     latitude: 38.907371,
     longitude: -76.993675,
@@ -15935,10 +15935,10 @@ export const ALL_US_COLLEGES = {
     longitude: -77.861644,
     name: 'Pennsylvania State University (PSU)',
     translation: '宾夕法尼亚州立大学',
-    zip_code: '16802-1503',
+    zip_code: '16801',
     state_name: 'Pennsylvania',
     state_abbreviation: 'PA',
-    city: 'University Park',
+    city: 'State College',
   },
   'Pennsylvania State University-Penn State Greater Allegheny': {
     latitude: 40.344474,
@@ -19593,8 +19593,7 @@ export const ALL_US_COLLEGES = {
   'West Virginia University Hospital Departments of Rad Tech and Nutrition': {
     latitude: 39.650535,
     longitude: -79.964727,
-    name:
-      'West Virginia University Hospital Departments of Rad Tech and Nutrition',
+    name: 'West Virginia University Hospital Departments of Rad Tech and Nutrition',
     translation: '拉德技术和营养的西弗吉尼亚大学医院科室',
     zip_code: '26506-8062',
     state_name: 'West Virginia',
@@ -21544,8 +21543,7 @@ export const ALL_US_COLLEGES = {
   'Central Methodist University-College of Graduate and Extended Studies': {
     latitude: 39.150383,
     longitude: -92.686156,
-    name:
-      'Central Methodist University-College of Graduate and Extended Studies',
+    name: 'Central Methodist University-College of Graduate and Extended Studies',
     translation: '研究生和扩展研究中央卫理公会大学学院',
     zip_code: '65248-1198',
     state_name: 'Missouri',
@@ -22005,8 +22003,7 @@ export const ALL_US_COLLEGES = {
   'Pontifical John Paul II Institute for Studies on Marriage and Family': {
     latitude: 38.932716,
     longitude: -76.997896,
-    name:
-      'Pontifical John Paul II Institute for Studies on Marriage and Family',
+    name: 'Pontifical John Paul II Institute for Studies on Marriage and Family',
     translation: '罗马教皇约翰·保罗二世学院为研究婚姻和家庭',
     zip_code: '20064',
     state_name: 'District of Columbia',

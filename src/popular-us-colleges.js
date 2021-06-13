@@ -474,10 +474,10 @@ export const POPULAR_US_COLLEGES = {
     longitude: -77.861644,
     name: 'Pennsylvania State University (PSU)',
     translation: '宾夕法尼亚州立大学',
-    zip_code: '16802-1503',
+    zip_code: '16801',
     state_name: 'Pennsylvania',
     state_abbreviation: 'PA',
-    city: 'University Park',
+    city: 'State College',
   },
   'Boston University': {
     latitude: 42.349581,
