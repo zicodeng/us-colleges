@@ -569,10 +569,10 @@ export const POPULAR_US_COLLEGES = {
     state_abbreviation: 'MN',
     city: 'Minneapolis',
   },
-  'Michigan State University': {
+  'Michigan State University (MSU)': {
     latitude: 42.72476,
     longitude: -84.473639,
-    name: 'Michigan State University',
+    name: 'Michigan State University (MSU)',
     translation: '密歇根州立大学',
     zip_code: '48824-1046',
     state_name: 'Michigan',
