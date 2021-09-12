@@ -169,11 +169,11 @@ export const POPULAR_US_COLLEGES = {
     state_abbreviation: 'PA',
     city: 'Pittsburgh',
   },
-  'University of Michigan': {
+  'University of Michigan, Ann Arbor': {
     latitude: 42.276172,
     longitude: -83.74313,
     name: 'University of Michigan',
-    translation: '密歇根大学',
+    translation: '密歇根大学安娜堡分校',
     zip_code: '48109',
     state_name: 'Michigan',
     state_abbreviation: 'MI',
