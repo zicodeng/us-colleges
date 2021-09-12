@@ -399,10 +399,10 @@ export const ALL_US_COLLEGES = {
     state_abbreviation: 'AZ',
     city: 'Flagstaff',
   },
-  'Arizona State University': {
+  'Arizona State University (ASU)': {
     latitude: 33.421922,
     longitude: -111.940011,
-    name: 'Arizona State University',
+    name: 'Arizona State University (ASU)',
     translation: '亚利桑那州立大学',
     zip_code: '85287',
     state_name: 'Arizona',
