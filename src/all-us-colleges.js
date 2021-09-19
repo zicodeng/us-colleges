@@ -8503,7 +8503,7 @@ export const ALL_US_COLLEGES = {
   'University of Michigan, Ann Arbor': {
     latitude: 42.276172,
     longitude: -83.74313,
-    name: 'University of Michigan',
+    name: 'University of Michigan, Ann Arbor',
     translation: '密歇根大学安娜堡分校',
     zip_code: '48109',
     state_name: 'Michigan',
